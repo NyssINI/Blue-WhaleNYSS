@@ -1,0 +1,77 @@
+.vid-back {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.navbar { 
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav-link:hover {
+  background-color:  #1c52678a; 
+  border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar.scrolled {
+  background-color: #0505266f;
+}
+
+.judul {
+  text-align: center;
+  color: #F0F0F0;
+  padding-top: 50vh; 
+  z-index: 1;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.judul a{
+  margin-top: 20px;
+}
+
+#fact {
+  background-color: #050526;
+  padding: 60px 0; 
+  margin-top: 255px; 
+  z-index: 3;
+}
+
+.bungkus-text {
+  background-color: #F8F9FA;
+  border-radius: 10px;
+  color: #333;
+  padding: 20px;
+}
+
+.bungkus-text li {
+  text-align: left;
+}
+
+.gambar-paus {
+  background-color: #050526; 
+  border-radius: 10px;
+  padding: 20px; 
+}
+
+footer h2 {
+  color: #F4A460; 
+}
+
+
+
+
+
+
